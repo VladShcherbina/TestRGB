@@ -4,6 +4,33 @@
     background-color: #1c1b2f;
     
 }
+@font-face {
+    font-family: 'Gilroy Extra Bold';
+    src: url('Gilroy-ExtraBold.eot');
+    src: url('Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('Gilroy-ExtraBold.woff') format('woff'),
+    url('Gilroy-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+        font-family: 'Gilroy Semibold';
+        src: url('Gilroy-SemiBold.eot');
+        src: url('Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-SemiBold.woff') format('woff'),
+        url('Gilroy-SemiBold.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+        @font-face {
+            font-family: 'Gilroy Regular';
+            src: url('Gilroy-Regular.eot');
+            src: url('Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+            url('Gilroy-Regular.woff') format('woff'),
+            url('Gilroy-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            }
 .wrapper{
     display: flex;
     flex-direction: column;
@@ -14,7 +41,7 @@
     }
 }
 .wrapper {
-    @media (max-width: 768px) { 
+    @media (max-width: 1024px) { 
         gap: 30px;
         width: 100%;
     }
@@ -73,7 +100,9 @@
     border: none;
     border-radius: 5px;
     display: flex;
+    font-family: 'Gilroy', sans-serif;
     gap: 5px;
+    font-size: 12px;
     @media (max-width: 425px) { 
         font-size: 12px;
 
@@ -97,10 +126,12 @@
 .IT_p{
     font-size: 22px;
     color:white;
+    font-family: 'Gilroy Semibold', sans-serif;
 }
 .IT_p_2 {
     font-size: 18px;
     color:white;
+    font-family: 'Gilroy Regular', sans-serif;
 }
 .IT_p_3{
     font-size: 16px;
@@ -109,9 +140,16 @@
     padding: 5px;
     border-radius: 5px 10px;
     width: 20%;
+    font-family: 'Gilroy Bold', sans-serif;
     @media (max-width: 1024px) { 
-        width: 80px;
+        width: 90px;
      }
+}
+.family_2{
+    font-family: 'Gilroy Semibold', sans-serif;
+}
+.family {
+    font-family: 'Gilroy Regular', sans-serif;
 }
 .IT_span {
     color:white;
@@ -194,6 +232,7 @@
     @media (max-width: 425px) {
         width: 90%;
         align-items:center;
+        text-align: center;
       }
 }
 .wrapper_section_form{
@@ -249,6 +288,7 @@
     border-radius: 5px;
     background-color: #FF3459;
     color: white;
+    font-family: 'Gilroy Semibold', sans-serif;
     @media (max-width: 425px) { 
         background-color:blue;
     }

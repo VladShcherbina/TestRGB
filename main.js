@@ -51,7 +51,7 @@ button.addEventListener('submit', function(e) {
         email = `<b>Почта: </b> ${inputEmail.value}`
     } else {
         inputEmail.value = ''
-        alert('Невалідний емейл')
+        alert('Невалідний Email')
     }
 
     if(inputName.value === '' || input.value === '' || inputEmail.value === '') {
