@@ -337,13 +337,13 @@
 }
 
 .iti__flag-container {
-  background-color: #f8f9fa; 
+  background-color: #879eb6; 
   border: 1px solid #ced4da; 
   border-radius: 4px; 
 }
 
 .iti__country-list {
-  background-color: #ffffff; /* Цвет фона списка стран */
+  background-color: #8b8989; /* Цвет фона списка стран */
   border: 1px solid #ced4da; /* Цвет рамки списка стран */
   border-radius: 4px; /* Радиус скругления списка стран */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для списка стран */
@@ -355,7 +355,7 @@
 
 .iti__country:hover,
 .iti__country--highlight {
-  background-color: #067cf3; /* Цвет фона при наведении на элемент списка */
+  background-color: #281f1f; /* Цвет фона при наведении на элемент списка */
 }
 
 .iti__flag {
@@ -365,12 +365,12 @@
 
 .iti__country-name {
   font-size: 14px; /* Размер шрифта названия страны */
-  color: #495057; /* Цвет текста названия страны */
+  color: #ffffff; /* Цвет текста названия страны */
 }
 
 .iti__dial-code {
   font-size: 14px; /* Размер шрифта кода страны */
-  color: #6c757d; /* Цвет текста кода страны */
+  color: #f9fafb; /* Цвет текста кода страны */
 }
 
 .iti__selected-flag {
